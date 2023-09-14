@@ -1,8 +1,8 @@
-.tabla{
+.tabla {
     padding: 0.1em;
-
     border: 2px solid rgb(26, 176, 235);
 }
+
 table {
     box-shadow: 0.5px 2px 3px rgb(58, 54, 54);
     border: 2px solid #083e31;
@@ -22,15 +22,19 @@ th {
     color: rgb(0, 255, 174);
 }
 
-tr:nth-child(even) { /* Selecciona todas las filas pares (even) de la tabla*/
+tr:nth-child(even) {
     background-color: #abd5b7;
 }
 
-tr:nth-child(3) { /*Selecciona una fila específica en la tabla*/
-    background-color: rgb(94, 148, 114); 
+tr:nth-child(3) {
+    background-color: rgb(94, 148, 114);
 }
 
 tr:hover {
     background-color: #769f7c;
 }
 
+/* Alinea las celdas de la columna "PROVINCIA" (Don Benito, Madrid y Silla) a la izquierda */
+td:nth-child(3) {
+    text-align: left;
+}

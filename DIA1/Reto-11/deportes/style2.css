@@ -1,8 +1,8 @@
 .tabla{
     padding: 0.1em;
-
     border: 2px solid rgb(26, 176, 235);
 }
+
 table {
     box-shadow: 0.5px 2px 3px rgb(58, 54, 54);
     border: 2px solid #083e31;
@@ -14,19 +14,31 @@ table {
 th, td {
     border: 1px solid #083e31;
     padding: 0px;
-    text-align: center;
 }
 
 th {
     background-color: #083e31;
     color: rgb(0, 255, 174);
+    text-align: center;
 }
 
-tr:nth-child(even) { /* Selecciona todas las filas pares (even) de la tabla*/
+td {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+tr:nth-child(2) { 
     background-color: #abd5b7;
 }
 
-tr:nth-child(3) { /*Selecciona una fila específica en la tabla*/
+tr:nth-child(3) { 
+    background-color: #abd5b7;
+}
+
+tr:nth-child(4) { 
     background-color: rgb(94, 148, 114); 
 }
 
