@@ -1,0 +1,35 @@
+.tabla{
+    padding: 0.1em;
+
+    border: 2px solid rgb(26, 176, 235);
+}
+table {
+    border: 2px solid #083e31;
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(26, 176, 235);
+}
+
+th, td {
+    border: 1px solid #083e31;
+    padding: 0px;
+    text-align: center;
+}
+
+th {
+    background-color: #083e31;
+    color: rgb(0, 255, 174);
+}
+
+tr:nth-child(even) { /* Selecciona todas las filas pares (even) de la tabla*/
+    background-color: #abd5b7;
+}
+
+tr:nth-child(3) { /*Selecciona una fila específica en la tabla*/
+    background-color: rgb(94, 148, 114); 
+}
+
+tr:hover {
+    background-color: #769f7c;
+}
+
